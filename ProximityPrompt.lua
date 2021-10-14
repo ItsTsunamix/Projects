@@ -27,7 +27,7 @@ CreateProximityPrompt = function(Info)
 				Info.Callback();
 				TimesTriggered = TimesTriggered + 1;
 			else
-				print("You have triggered more times than you are allowed to! You can't do that!");
+				print("You have triggered more times than you are allowed to, You can't do that!");
 			end;
 		end;
 	end);
